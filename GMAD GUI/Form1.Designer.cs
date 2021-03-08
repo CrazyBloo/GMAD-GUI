@@ -45,6 +45,7 @@ namespace GMAD_GUI
             // 
             // consoleControl1
             // 
+            this.consoleControl1.AutoScroll = true;
             this.consoleControl1.IsInputEnabled = false;
             this.consoleControl1.Location = new System.Drawing.Point(422, 63);
             this.consoleControl1.Name = "consoleControl1";
