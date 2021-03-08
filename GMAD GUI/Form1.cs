@@ -116,7 +116,7 @@ namespace GMAD_GUI
            if (consoleControl1.InternalRichTextBox.Text.Contains("Done!"))
             {
 
-                consoleControl1.ClearOutput();
+                
                 var result = System.Windows.Forms.MessageBox.Show("Success!", "Finished Extracting");
                 
                 if (result == System.Windows.Forms.DialogResult.OK)
@@ -132,7 +132,7 @@ namespace GMAD_GUI
             } 
             if (consoleControl1.InternalRichTextBox.Text.Contains("Successfully saved"))
             {
-                consoleControl1.ClearOutput();
+                
                 var result = System.Windows.Forms.MessageBox.Show("Success!", "Addon created");
                
                 if (result == System.Windows.Forms.DialogResult.OK)
